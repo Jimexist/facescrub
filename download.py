@@ -13,7 +13,7 @@ if not exists(RESULT_ROOT):
     os.mkdir(RESULT_ROOT)
 
 
-def download((names, urls, bboxes)):
+def download(names, urls, bboxes):
     """
         download from urls into folder names using wget
     """
